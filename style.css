@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fcfcf4;
+  height: 70px;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 140px;
+  margin-left: 20px;
+}
+
+nav {
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #4d4c4c;
+  font-family: Quicksand;
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+
+/* WELCOME */
+
+.welcome {
+  background: url("img/lofoty.jpg");
+  min-height: calc(100vh - 70px);
+  /* odečítáme výšku hlavičky, kt. je 70px */
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  color: #4d4c4c;
+  font-family: Quicksand;
+  background-color: #fcfcf4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
